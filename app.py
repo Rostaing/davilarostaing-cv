@@ -64,7 +64,7 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
  
-st.markdown(""" <hr>""", unsafe_allow_html=True)   
+st.markdown(""" <hr>""", unsafe_allow_html=True) 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
@@ -80,6 +80,7 @@ st.write(
 
 with st.expander("Formations et Certifications"):
   st.markdown("""
+              - ✔️ 2023 : Certificat en Evolutions Pédagogiques Individuelles et Institutionnelles; ESGAE
               - ✔️ 2021 : Data Analytics Professional Certificate (équivalent BAC +4); Google
               - ✔️ 2021 : Data Analyst Professional Certificate; IBM
               - ✔️ 2020 : Deep Learning Specialization Certificate; DeepLearning.AI
@@ -98,6 +99,23 @@ with st.expander("Formations et Certifications"):
   
 with st.expander("Expériences Professionelles"):
   st.markdown("""
+              
+            2021 à ce jour :
+              
+              Ecole Supérieure de Gestion et d’Administration des Entreprises (ESGAE).
+                                 BP: 2339 - BRAZZAVILLE
+                
+            - Fonction : Enseignant (Prestataire)
+            
+            Matières enseignées :
+              - ✔️Algorithme et Structure de données;
+              - ✔️Data Science avec Python;
+              - ✔️Administration MongoDB;
+              - ✔️Microsoft Power BI;
+              - ✔️Administration Oracle;
+              - ✔️Fondamentaux JavaScript.
+              
+              <hr>
               16/02/2022 — 22/02/2022 :
               
             - Participant au Forum Numérique Congo 3ème Edition. Thème : L’Innovation Technologique et la Donnée au coeur des Transformations Digitales : Enjeux & Défis (Pointe-Noire, Congo).
@@ -144,22 +162,6 @@ with st.expander("Expériences Professionelles"):
               - ✔️Outils : Microsoft Power BI, Jupyter lab, Talend, Git
               <hr>
               
-              2021 à ce jour :
-              
-              Ecole Supérieure de Gestion et d’Administration des Entreprises (ESGAE).
-                                 BP: 2339 - BRAZZAVILLE
-                
-            - Fonction : Enseignant (Prestataire)
-            
-            Matières enseignées :
-              - ✔️Algorithme et Structure de données;
-              - ✔️Data Science avec Python;
-              - ✔️Administration MongoDB;
-              - ✔️Microsoft Power BI;
-              - ✔️Administration Oracle;
-              - ✔️Fondamentaux JavaScript.
-              
-              <hr>
               10/2020 — 05/2022 :
               
             - Projet : Mise en place de smart data et des cubes olap selon les indicateurs de l’application <<Gestion hospitalière et dossier médical unique>> à l’Agence Congolaise des Systèmes d’Information (ACSI) à Brazzaville (Congo).
